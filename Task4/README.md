@@ -28,10 +28,6 @@ CSG реализована через модификаторы Boolean в Blende
 - Bevel: Width Type - Offset, Amount - 0.1 m, Segments - 1, Limit Method - Angle (30°), Profile, Geometry, Shading.
 - Subdivision Surface (Subsurf): Catmull-Clark, Levels Viewport - 1, Render - 2, Optimal Display.
 
-- панель модификаторов Bevel и Subdivision Surface.
-
-- вид модели в Edit Mode с выделенными вершинами (высокополигональная версия).
-
 Это количество полигонов за счет subdivision и bevel, делая модель более гладкой.
 
 ## Шаг 3: Экспорт файла
@@ -61,7 +57,6 @@ CSG реализована через модификаторы Boolean в Blende
 
 Файл OBJ открыт в RenderMonkey (альтернатива FX Composer).
 
-не так, надо так
 - Cоздан эффект DirectX, в котором были установлены переменные по умолчанию: ViewProjection, WorldViewProjection, WorldInverseTranspose, LightDirection
 - Установлены материалы: Сгенерированы из Wizard (Default_DirectX_Effect > Model > Low или аналогично). Применен Ambient color, Diffuse.
 - Установлен свет: В Artist Editor — LightDirector, позиция и цвет (Ambient RGBA).
