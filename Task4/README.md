@@ -65,7 +65,8 @@ CSG реализована через модификаторы Boolean в Blende
 
 Файл OBJ открыт в RenderMonkey (альтернатива FX Composer).
 
-- Загружен модель: File > Open, или через workspace.
+не так, надо так
+- Cоздан эффект DirectX, в котором были установлены переменные по умолчанию: ViewProjection, WorldViewProjection, WorldInverseTranspose, LightDirection
 - Установлены материалы: Сгенерированы из Wizard (Default_DirectX_Effect > Model > Low или аналогично). Применен Ambient color, Diffuse.
 - Установлен свет: В Artist Editor — LightDirector, позиция и цвет (Ambient RGBA).
 - Управление FoV камеры: В окне Camera — FOV (например, 66.4000°), Camera Position, Look At, Up Vector, Near/Far Clip Plane.
